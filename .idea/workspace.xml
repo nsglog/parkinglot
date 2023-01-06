@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b1855aa-aeb6-43bb-a715-3e61d74530fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/ParkingLotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/CreateParkingLotRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/CreateParkingLotResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/GenerateTicketRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/GenerateTicketResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/ResponseStatusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/UpdateParkingLotRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/UpdateParkingLotResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/DisplayBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ElectricCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ElectricParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/EntryGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ExitGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/GateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/GateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/InvoicePaidStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingSpotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/SpotType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ParkingLotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/feescalculationstrategy/FeesCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/spotassignmentstrategy/RandomSpotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/spotassignmentstrategy/SpotAssignmentStrategy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JuJprg0ewfGcQpyuQ3iNLBdXSr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="ParkingLotSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ParkingLotSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ParkingLotSystem" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b1855aa-aeb6-43bb-a715-3e61d74530fc" name="Changes" comment="" />
+      <created>1672922222448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672922222448</updated>
+      <workItem from="1672922224293" duration="17744000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
