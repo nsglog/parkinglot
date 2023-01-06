@@ -1,7 +1,6 @@
 import controllers.ParkingLotController;
 import controllers.TicketController;
 import dtos.*;
-import models.ParkingLot;
 import repositories.ParkingLotRepository;
 import repositories.TicketRepository;
 import services.ParkingLotService;
@@ -36,20 +35,19 @@ public class Client {
         requestDto.setAddress("Delhi Airport");
         requestDto.setNumberOfFloors(4);
 
-        CreateParkingLotResponseDto response = parkingLotController.createParkingLot(requestDto);
+        CreateParkingLotResponseDto responseDto = parkingLotController.createParkingLot(requestDto);
 
-        if (response.getResponseStatus().equals(ResponseStatusDto.FAILURE)) {
+        if (responseDto.getResponseStatus().equals(ResponseStatusDto.FAILURE)) {
             System.out.println("Something is wrong");
         } else {
-            System.out.println(response.getParkingLot());
+            System.out.println(responseDto.getResponseStatus());
         }
 
         UpdateParkingLotRequestDto updateParkingLotRequest = new UpdateParkingLotRequestDto();
         updateParkingLotRequest.setId(1L);
         updateParkingLotRequest.setAddress("Noida");
 
-        UpdateParkingLotResponseDto responseDto = parkingLotController.updateAddress(updateParkingLotRequest);
-
-        System.out.println(responseDto);
+        UpdateParkingLotResponseDto updateResponseDto = parkingLotController.updateAddress(updateParkingLotRequest);
+        System.out.println(updateResponseDto.getResponseStatus());
     }
 }
